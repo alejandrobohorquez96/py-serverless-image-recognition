@@ -5,8 +5,8 @@ let imageDatabase = "images"
 let tagsDatabase = "tags"
 let uploadedImages = document.getElementById("uploadedImages");
 
-let usernameCloudant = "4f940561-147a-4a52-aed7-c0c0560a4242-bluemix"
-let passwordCloudant = "04f5b96b20ec4c3589b461bef06cefbe8f933dec4145426121303896fce5f605"
+let usernameCloudant = "AQUI PEGAMOS EL USERNAME DE LA BASE DE DATOS CLOUDANT"
+let passwordCloudant = "AQUI PEGAMOS LA PASSWORD DE LA BASE DE DATOS CLOUDANT"
 
 const cloudantURL = new URL("https://" + usernameCloudant + ":" + passwordCloudant + "@" + usernameCloudant + ".cloudant.com");
 
