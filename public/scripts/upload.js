@@ -5,8 +5,8 @@ let imageDatabase = "images"
 let tagsDatabase = "tags"
 let uploadedImages = document.getElementById("uploadedImages");
 
-let usernameCloudant = "9d854810-db17-4bf3-821c-9fbc7d8f4b90-bluemix"
-let passwordCloudant = "1c53c806debc0e720c23b7006e3fce67d9ad86405d9e481d50a823a8cf71dd38"
+let usernameCloudant = "4f940561-147a-4a52-aed7-c0c0560a4242-bluemix"
+let passwordCloudant = "04f5b96b20ec4c3589b461bef06cefbe8f933dec4145426121303896fce5f605"
 
 const cloudantURL = new URL("https://" + usernameCloudant + ":" + passwordCloudant + "@" + usernameCloudant + ".cloudant.com");
 
@@ -123,4 +123,3 @@ form.onsubmit = function() {
   return false;
 }
 
-// getDocumentWithId("0724dabd80bc2102e8e5e1f9fdbb3a60",0);
