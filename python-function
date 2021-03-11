@@ -15,8 +15,8 @@ def main(args):
     #print(args)
     dbhost = "https://"+ args["username"]+".cloudant.com"
     client = Cloudant(args["username"], args["password"], url=dbhost, connect=True)
-    dbname = args["dbname"]
-    dbNameProcessed = args["dbname_processed"]
+    dbname = "images"
+    dbNameProcessed = "tags"
 
     id = args["id"]
     print(id)
